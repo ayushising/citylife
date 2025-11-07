@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
@@ -14,7 +13,6 @@ import {
   MapPin,
   Star,
   Shield,
-  Calendar,
 } from "lucide-react";
 import { Packages } from "./Packages";
 import { PartnerForm } from "./PartnerForm";

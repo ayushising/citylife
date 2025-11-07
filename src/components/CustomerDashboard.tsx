@@ -22,13 +22,10 @@ import {
   LogOut,
   User,
   CheckCircle,
-  AlertCircle,
-  Edit,
-  Shield,
-  FileText,
-  Download
+ 
+  Edit
 } from "lucide-react";
-import { servicePackages, mockBookings, mockReceipts, type Booking, type Receipt, timeSlots } from "../data/mockData";
+import { servicePackages, mockBookings,  type Booking, timeSlots } from "../data/mockData";
 import { toast } from "sonner";
 // import logo from "figma:asset/ff974acc25be3bdb52e4b37eb1c66a6e7431e30c.png";
 

@@ -356,10 +356,14 @@ export function Packages({ onBookNow }: PackagesProps = {}) {
               <div className="text-center mb-8">
                 <h3 className="text-2xl text-[#E6EDF3] mb-2">{category.name}</h3>
                 <p className="text-[#E6EDF3]">{category.description}</p>
-                {key === 'assembly' && category.tagline && (
+
+
+
+                {key === 'assembly' && 'tagline' in category && (
                   <div className="mt-4 mx-auto max-w-3xl">
                     <div className="bg-blue-900/30 border-l-4 border-blue-500 p-4 rounded-r-lg">
                       <p className="text-[#E6EDF3]">
+                        {/* You can even remove the `?` here, as TypeScript now knows it exists */}
                         {category.tagline}
                       </p>
                     </div>

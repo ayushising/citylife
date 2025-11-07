@@ -7,21 +7,17 @@ import { Label } from "./ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
 import { Calendar } from "./ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Checkbox } from "./ui/checkbox";
 import { 
   Users, 
-  TrendingUp, 
   DollarSign, 
-  Package,
   UserPlus,
   LogOut,
   CheckCircle,
   MessageSquare,
   Star,
-  Settings,
   Edit,
   Calendar as CalendarIcon,
   Percent,
